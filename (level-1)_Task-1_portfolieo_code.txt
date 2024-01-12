@@ -1,0 +1,149 @@
+<!-- ********************************** # HTML CODE #************************************************** -->
+<!-- ************* Portfolio code ************ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>My Portfolio</title>
+</head>
+
+<body>
+
+
+  <header>
+    <h1>Prakash Singh</h1>
+    <h3>Web Developer | Full Stack Developer</h3>
+  </header>
+
+  <section id="about">
+    <img src="prakash.jpg.jpg" alt="Prakash Singh" height="100vh" width="150vh"/>
+  </section>
+
+  <section id="about1">
+    <h2>
+      I'm a passionate web developer and designer with a keen eye for detail.
+    </h2>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="" alt="Project 1" />
+      <h3>Project 1</h3>
+      <p>Designed and coded a responsive website for a local business.</p>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p><a href="Prakash_Singh_Resume1.pdf" download> Download Resume (PDF)</a></p>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: prakashsingh900526@gmail.com</p>
+    <p>Phone: 7266928100</p>
+  </section>
+  <footer>
+    <p>&copy; 2023 Prakash. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
+<!-- *************************************************************************************************** -->
+
+
+/********* # CSS CODE **********************/
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: rgb(198, 209, 216);
+  padding: 0;
+  height: 100vh;
+  background-image: url(BG_Technology.jpg.png);
+  background-size: cover;
+}
+
+header {
+  background-color: black;
+  color:whitesmoke;
+  text-align: center;
+  padding: 15px 0;
+  opacity: 0.7  ;
+}
+
+header h1 {
+  margin: 0;
+}
+
+#about1 {
+  text-align: center;
+  align-content: center;
+  padding: 20px 0;
+  color: antiquewhite;
+}
+#about {
+  text-align: center;
+  padding: 3% 0;
+}
+
+#about img {
+  width: 90px;
+  border-radius: 30%;
+}
+
+#skills {
+  text-align: left;
+  padding: 10px 0;
+}
+
+#skills ul {
+  list-style: none;
+}
+
+#projects {
+  /* text-align: center; */
+  padding-left:50px;
+  color: antiquewhite;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+#resume,
+#contact {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #2f6ab1;
+  opacity: 0.8;
+  color: #fff;
+}
+
+#resume a {
+  text-decoration: none;
+  color: whitesmoke;
+  border: 1px solid #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  opacity: 0.7;
+  text-align: center;
+  padding: 20px 0;
+}
+/* ******************************************************************************************************* */
